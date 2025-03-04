@@ -1,4 +1,4 @@
-# SecureVault PDF
+# SecureVault PDF: Secure Your PDFs Easily
 
 SecureVault PDF is an app that makes your PDF documents secure. It encrypts and authenticates your files, ensuring they're safe and can be used as legal evidence if needed.
 
@@ -14,73 +14,25 @@ SecureVault PDF is an app that makes your PDF documents secure. It encrypts and 
 -  Individuals and professionals handling sensitive documents
 -  Small to medium businesses requiring document security
 
-## How to Install
+## Quick Start Guide:
 
-1. **Get the App**:
-   - Go to [GitHub Releases](https://github.com/ssoooj/securevault/releases) and download the latest version.
+1. **Open the App**: Double-click `SecureVaultPDF.app`
 
-2. **Unzip the File**:
-   - Open the `.zip` file you downloaded to get `SecureVaultPDF.app`.
+2. **Secure Your PDF**:
+   - Click "📄 Select Input PDF"
+   - Choose where to save: "📂 Select Output Directory"
+   - Enter recipient's details
+   - (Optional) Add watermark text
 
-3. **Start the App**:
-   - Double-click `SecureVaultPDF.app` to open it.
-   - If your Mac says it can't open the app:
-     - Go to **System Settings > Privacy & Security** and click **Open Anyway**.
+3. **Create Secure PDF**:
+   - Click "Generate Secure PDF"
+   - View and copy the security info
 
-## How to Use SecureVaultPDF
+4. **Done!** Your secure PDF is ready to use
 
-1. **Open the App**:
-   - Click on `SecureVaultPDF.app` to start it.
-
-2. **Choose Your PDF**:
-   - Click "📄 Select Input PDF" and pick the PDF you want to secure.
-
-3. **Choose Where to Save**:
-   - Click "📂 Select Output Directory" to choose where to save your secure PDF.
-
-4. **Enter Recipient Info**:
-   - Type in who the PDF is for (their name, company, and email).
-
-5. **Add a Watermark** (if you want):
-   - Type any text you want as a watermark in the "🖋️ Custom Watermark Text" box.
-
-6. **Change Settings** (if needed):
-   - Click "Configure" to set things like project name or copyright info.
-  
-7. **Generate Secure PDF**:
-   - Click "Generate Secure PDF" to create your protected document.
-   - When it's done, you'll see a metadata dialog with important information about your secure PDF.
-
-8. **Understanding the Metadata**:
-   - The metadata includes details like document hash, recipient info, and creation time.
-   - A JSON file containing this metadata is also generated alongside your secure PDF.
-   - This JSON file serves as a record of the document's creation and can be used for verification purposes.
-
-9. **Copying Metadata**:
-   - In the metadata dialog, you'll see a "Copy" button.
-   - Clicking this button copies all the metadata information to your clipboard.
-   - You can paste this information into a text file or email for your records.
-   - This copied data can be useful for:
-     - Keeping a log of created secure documents
-     - Sharing document details securely with intended recipients
-     - Future verification of the document's authenticity
-
-10. **Using the JSON File**:
-    - The generated JSON file (named like "SECURITY_[RecipientName]_[DocHash].json") contains all metadata.
-    - Keep this file secure – it's a digital record of your document's creation and details.
-    - You can use this file to verify the document's integrity or track its creation details in the future.
-
-Remember: The metadata and JSON file contain sensitive information. Handle them with the same level of security as the PDF itself.
-
-## If You Have Problems
-
-If the app won't open:
-1. Open Terminal (search for it in Spotlight).
-2. Type this, replacing the path with where your app is:
-   ```
-   xattr -cr /path/to/SecureVaultPDF.app
-   ```
-3. Try opening the app again.
+## What You Get:
+- An encrypted PDF file
+- A JSON file with security details (keep this safe!)
 
 ## Questions?
 
