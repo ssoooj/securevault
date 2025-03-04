@@ -27,7 +27,7 @@ SecureVault PDF is an app that makes your PDF documents secure. It encrypts and 
    - If your Mac says it can't open the app:
      - Go to **System Settings > Privacy & Security** and click **Open Anyway**.
 
-## How to Use
+## How to Use SecureVaultPDF
 
 1. **Open the App**:
    - Click on `SecureVaultPDF.app` to start it.
@@ -46,11 +46,31 @@ SecureVault PDF is an app that makes your PDF documents secure. It encrypts and 
 
 6. **Change Settings** (if needed):
    - Click "Configure" to set things like project name or copyright info.
-
-7. **Make Your Secure PDF**:
+  
+7. **Generate Secure PDF**:
    - Click "Generate Secure PDF" to create your protected document.
-   - When it's done, you'll see info about your new PDF.
-   - You can copy this info by clicking the "Copy" button.
+   - When it's done, you'll see a metadata dialog with important information about your secure PDF.
+
+8. **Understanding the Metadata**:
+   - The metadata includes details like document hash, recipient info, and creation time.
+   - A JSON file containing this metadata is also generated alongside your secure PDF.
+   - This JSON file serves as a record of the document's creation and can be used for verification purposes.
+
+9. **Copying Metadata**:
+   - In the metadata dialog, you'll see a "Copy" button.
+   - Clicking this button copies all the metadata information to your clipboard.
+   - You can paste this information into a text file or email for your records.
+   - This copied data can be useful for:
+     - Keeping a log of created secure documents
+     - Sharing document details securely with intended recipients
+     - Future verification of the document's authenticity
+
+10. **Using the JSON File**:
+    - The generated JSON file (named like "SECURITY_[RecipientName]_[DocHash].json") contains all metadata.
+    - Keep this file secure – it's a digital record of your document's creation and details.
+    - You can use this file to verify the document's integrity or track its creation details in the future.
+
+Remember: The metadata and JSON file contain sensitive information. Handle them with the same level of security as the PDF itself.
 
 ## If You Have Problems
 
