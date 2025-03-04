@@ -9,6 +9,11 @@ SecureVault PDF is an app that makes your PDF documents secure. It encrypts and 
 - 📊 **Records Who It's For**: Keeps track of who should receive the document.
 - ⏱️ **Stamps the Time**: Shows when the document was created.
 
+## Intended Users:
+-  macOS users needing secure PDF management
+-  Individuals and professionals handling sensitive documents
+-  Small to medium businesses requiring document security
+
 ## How to Install
 
 1. **Get the App**:
